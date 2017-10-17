@@ -1,0 +1,29 @@
+<div class='register-wrapper' style="text-align:center">
+  <h1 class='register-title'>
+    {{title}}
+  </h1>
+  <div class='form-wrapper'>
+      <md-form-field class="example-full-width">
+          <input mdInput placeholder="Username" [(ngModel)]='username' />
+        </md-form-field>
+    <md-form-field class="example-full-width">
+      <input mdInput placeholder="Your email" [(ngModel)]='email' />
+    </md-form-field>
+    <md-form-field class="example-full-width">
+      <input mdInput placeholder="Your password" [(ngModel)]='password' />
+    </md-form-field>
+    <div class='register-submit-wrapper'>
+      <button (click)='doRegister()' md-raised-button color="primary">Submit</button>
+    </div>
+  </div>
+  <div *ngIf='showSuccess'>
+    <p>Your account has been successfully create!</p>
+    <p>Now you can login and enjoy the app!</p>
+  </div>
+  <div *ngIf='showError'>
+    <p>Ooops! Something went wrong!</p>
+  </div>
+</div>
+
+
+

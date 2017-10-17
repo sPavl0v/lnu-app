@@ -1,0 +1,25 @@
+.about-wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.about-info-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.about-title {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.article-title {
+  margin-bottom: 20px;
+}
+
+.article-text {
+  
+}

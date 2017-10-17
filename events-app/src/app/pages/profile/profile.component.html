@@ -1,0 +1,35 @@
+<div class='profile-wrapper'>
+  <md-card class='profile'>
+    <div class='pic-wrapper'>
+      <div class='pic'></div>
+    </div>
+    <div class='info-wrapper'>
+      <div>Username:
+        <input type='text' [value]='user.username || ""' />
+      </div>
+      <div>Email:
+          <input type='text' [value]='user.email || ""' />
+      </div>
+      <div>Age:
+          <input type='text' [value]='user.age || ""' />
+      </div>
+      <div>Interests:
+          <input type='text' [value]='user.interests || ""' />
+      </div>
+    </div>
+  </md-card>
+  <md-card>
+    <h2>Subscribtion</h2>
+    <div class='events-wrapper'>
+      <div class='event-wrapper' *ngFor='let event of subscription'>
+        <div class='event-image'>
+          <div class='event-pic'></div>
+        </div>
+        <div class='event-short-info'>
+          <div>{{ event.title }}</div>
+          <div>{{ event.description }}</div>
+        </div>
+      </div>
+    </div>
+  </md-card>
+</div>

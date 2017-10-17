@@ -1,0 +1,11 @@
+<div class="header-wrapper">
+  <nav>
+    <div class='logo-wrapper'>Events-app</div>
+    <ul class='navbar'>
+      <li class='navbar-item' [ngClass]='{"active": activeLinkIndex == index}' *ngFor='let navItem of navItems;let index = index' (click)='routeChanged(index)'>
+          <a class='navbar-item-text' [routerLink]='navItem.route'>{{ navItem.name }}</a>
+      </li>
+    </ul>  
+  </nav>
+</div>
+

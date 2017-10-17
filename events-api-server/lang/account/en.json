@@ -1,0 +1,13 @@
+{
+  "account_org_name": "Organization name: ",
+  "account_acc_name": "Account name: ",
+  "account_contact_fname": "Contact Firstname: ",
+  "account_contact_lname": "Contact Lastname: ",
+  "account_email": "Email: ",
+  "account_phone:": "Phone: ",
+  "account_pass": "Password",
+  "account_btn_submit": "Submit",
+  "account_title": "Create new account",
+  "account_success_msg": "Account was successfully created!",
+  "account_error_msg": "Oops! Something went wrong"
+}

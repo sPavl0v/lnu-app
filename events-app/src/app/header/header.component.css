@@ -1,0 +1,46 @@
+.header-wrapper {
+  background: rgb(63, 81, 181);
+  text-align: center;  
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.logo-wrapper {
+  font-size: 46px;
+  padding-top: 20px;
+  color: #ff4081;
+}
+
+.navbar {
+  color: #fff;
+  padding-top: 30px;
+}
+
+.navbar-item, .navbar-item:active {
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.navbar-item.active {
+  border: 1px solid #ff4081;
+}
+
+.navbar-item-text, .navbar-item-text:active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-item {
+  list-style-type: none;
+  display: inline-block;
+}

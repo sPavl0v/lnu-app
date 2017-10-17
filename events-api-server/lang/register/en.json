@@ -1,0 +1,20 @@
+{
+  "register_page_title": "Flow",
+  "register_title": "Title: ",
+  "register_time": "Time: ",
+  "register_date": "Date: ",
+  "register_timezone": "Timezone: ",
+  "register_local_time": "Local time: ",
+  "register_no_image_found": "No image found",
+  "register_btn_signup": "Sign Up",
+  "register_placeholder_email": "Email",
+  "register_placeholder_fname": "First name",
+  "register_placeholder_lname": "Last name",
+  "register_btn_sms": "Remind sms",
+  "register_placeholder_phone": "Phone",
+  "register_description": "Description: ",
+  "register_msg_success": "You have successfully registered for the event",
+  "register_btn_add": "Add to calendar",
+  "register_event_expired": "This Event is expired",
+  "register_not_valid_token": "Token is not valid"
+}

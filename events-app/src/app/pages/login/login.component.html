@@ -1,0 +1,21 @@
+<div class='login-wrapper' style="text-align:center">
+  <h1 class='login-title'>
+    {{title}}
+  </h1>
+  <div class='form-wrapper'>
+    <md-form-field class="example-full-width">
+      <input mdInput placeholder="Your email" [(ngModel)]='email' />
+    </md-form-field>
+    <md-form-field class="example-full-width">
+      <input mdInput type='password' placeholder="Your password" [(ngModel)]='password' />
+    </md-form-field>
+    <div class='register-link'>Dont have an account?
+      <span (click)='goToRegister()' class='register-btn'>CLick to Register!</span>
+    </div>
+    <div class='login-submit-wrapper'>
+      <button (click)='onSubmit()' md-raised-button color="primary">Submit</button>
+    </div>
+  </div>
+</div>
+
+

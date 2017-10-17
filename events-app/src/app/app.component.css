@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+/* pink active color #ff4081 */
+
+body {
+  background: #fafafa;
+}
+
+.content {
+  min-height: calc(100vh - 80px);
+}
+
+footer {
+  background: rgb(63, 81, 181);
+  height: 80px;
+  color: #fff;
+  padding-top: 33px;
+}

@@ -1,0 +1,28 @@
+.login-wrapper {
+  width: 400px;
+  border: 1px solid rgb(63, 81, 181);
+  margin: 150px auto 0;
+}
+
+.login-title {
+  color: #fff;
+  background: rgb(63, 81, 181);
+  height: 100px;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.register-link {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.register-btn {
+  color: #ff4081;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-wrapper {
+  margin: 30px 0;
+}

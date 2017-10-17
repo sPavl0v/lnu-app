@@ -1,0 +1,44 @@
+.profile-wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pic-wrapper {
+  width: 30%;
+}
+
+.pic {
+  width: 150px;
+  height: 150px;
+  background: crimson;
+}
+
+.events-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.event-wrapper {
+  width: 280px;
+  display: flex;
+  border: 1px solid #eaeaea;
+  margin: 0 25px 50px;
+}
+
+.event-image {
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+}
+
+.event-short-info {
+  padding: 5px;
+}

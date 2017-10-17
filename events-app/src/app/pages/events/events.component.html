@@ -1,0 +1,31 @@
+<div class='events-wrapper'>
+  <div class="events">
+    <md-card async *ngFor='let event of events; let index = index' class='event-wrapper' async>
+      <div class='event-pic' (click)='goToEventPage(event._id)'>
+
+      </div>
+      <div class='event-content'>
+        <div class='event-title'>
+          <h2>{{ event.title }}</h2>
+        </div>
+        <div class='event-description'>  
+          <!-- <p>{{ event.description }}</p> -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil repudiandae nemo, similique sunt officiis.</p>
+        </div>
+        <div class='event-short-info'>
+          <span class='info-icon'><i class="material-icons">done</i> {{ event.subscribed || 0 }}</span>
+          <span class='info-icon'><i class="material-icons info-icon-red">favorite</i> {{ updatedLikes || event.likes || 0 }}</span>
+          
+        </div>
+        <div class="controls button-row">
+          <button *ngIf='!isSubscribed(event._id)' class="btn-sm" md-raised-button color="primary" (click)='onSubscribeClick(event._id, index)'>Subscribe</button>
+          <button *ngIf='isSubscribed(event._id)' class="btn-sm" md-raised-button color="primary">Unsubscribe</button>
+          <button class="btn-sm" md-raised-button color="primary" (click)='like(event._id, index)'>Like</button>
+        </div>
+      </div>
+    </md-card>
+  </div>
+  <div class='btn-create'>
+    <button md-button (click)="openDialog()">Create new event</button>
+  </div>
+</div>
